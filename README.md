@@ -12,7 +12,9 @@ To use the program, open the script in MATLAB (or Octave), and input the matrix 
 | 0   | -1    | 1     | 0     | 1     | 2     |
 
 Then input the index array in the script. (e.g. index = [1 4] means choosing x1 and x4 as the basic variable.)
+
 Specifying [1 4] and [4 1] gives different results. (Try it.)
+
 __WARNING: Make sure the columns you choose are indeed linearly independent i.e. basis! Otherwise you may get wrong result.__
 
 Run the script and the results will be displayed in the commandline.
